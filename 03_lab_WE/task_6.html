@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float Layout</title>
+    <style>
+        .menu{float:left;width:30%;background-color:lightblue;padding:10px;box-sizing:border-box;}
+        .content{float:right;width:65%;background-color:lightyellow;padding:10px;box-sizing:border-box;}
+        .clearfix{clear:both;}
+    </style>
+</head>
+<body>
+    <h1>Float Layout Example</h1>
+    <div class="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="content">
+        <h2>Content</h2>
+        <p>
+            Welcome to my website. This is the content column.
+            It occupies 65% of the available width and appears
+            on the right side of the menu.
+        </p>
+    </div>
+    <div class="clearfix"></div>
+</body>
+</html>

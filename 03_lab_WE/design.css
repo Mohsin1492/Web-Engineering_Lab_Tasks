@@ -1,0 +1,7 @@
+
+.notice {
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    font-weight: bold;
+    padding: 10px;
+}

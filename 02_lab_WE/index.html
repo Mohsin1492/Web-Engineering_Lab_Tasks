@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Membership</title>
+</head>
+<body>
+    <h1>Library Membership</h1>
+    <h2>Library Rules</h2>
+    <ul>
+        <li>Maintain Silence: Keep your voice low inside the library.</li>
+        <li>Return Books on Time: Return borrowed books before the due date.</li>
+        <li>Keep Books Safe: Handle books carefully and avoid damaging them.</li>
+    </ul>
+    <h2>Available Books</h2>
+    <table border="1">
+        <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+        </tr>
+        <tr>
+            <td>Introduction to HTML</td>
+            <td>Jon Duckett</td>
+        </tr>
+        <tr>
+            <td>Clean Code</td>
+            <td>Robert C. Martin</td>
+        </tr>
+    </table>
+    <h2>Membership Form</h2>
+    <form action="membership.php" method="post">
+        <label for="name">Member Name:</label>
+        <input type="text" id="name" name="member_name" required>
+        <br>
+        <br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="member_email" required>
+        <br>
+        <br>
+        <label for="book">Book You Want the Library to Purchase:</label>
+        <br>
+        <textarea id="book" name="book_request" rows="4" cols="30" required></textarea>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
